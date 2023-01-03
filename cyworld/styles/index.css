@@ -173,4 +173,29 @@ iframe {
     border: none;
 }
 
+.navigation {
+    width: 62px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: absolute;
+    left: 774px;
+    top: 110px;
+}
+
+.navigation__item {
+    width: 60px;
+    height: 30px;
+    background: #298EB5;
+    border: 1px solid #0F465E;
+    border-left: 0px;
+    border-radius: 0px 5px 5px 0px;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
 
